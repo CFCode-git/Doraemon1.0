@@ -26,7 +26,7 @@ const string = `
   width: 200px;
   height: 180px;
   position: absolute;
-  top: 20px;
+  top: 5px;
   left: 50%;
   transform: translateX(-50%);
   border-radius: 50% 50% 50% 50%;
@@ -232,7 +232,7 @@ const string = `
   height: 140px;
   background-color: #039be4;
   border: 2px solid #241414;
-  top: 175px;
+  top: 160px;
   left: 50%;
   transform: translateX(-50%);
 }
