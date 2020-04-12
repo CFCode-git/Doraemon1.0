@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.doraemon {
+  position: relative;
+}
+.nose {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  background-color: #dd141c;
+  border: 1px solid #333;
+  top: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+}
+.nose::after {
+  position: relative;
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: #f3fdfd;
+  border-radius: 50%;
+  top: 3px;
+  left: 5px;
+}
+
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
