@@ -54,7 +54,7 @@ const player = {
     player.play();
   },
   normal: () => {
-    player.speed = 10;
+    player.speed = 50;
     player.pause();
     player.play();
   },
